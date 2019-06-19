@@ -1,0 +1,1 @@
+{"version":3,"file":"static/webpack/static/development/pages/index.js.a610371244ba18c55d3d.hot-update.js","sources":["webpack:///./pages/index.js"],"sourcesContent":["function HomePage() {\n    return <h1>Hello, world!</h1>\n}\n\nexport default HomePage"],"mappings":";;;;;;;;;;;;;;;;AAAA;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACA;AACA;AACA;;;;A","sourceRoot":""}
