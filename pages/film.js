@@ -10,10 +10,12 @@ function FilmPage(props) {
 }
 
 FilmPage.getInitialProps = async({query}) => {
-    const {filmID} = query
-    console.log("logging here")
-    const res = await fetch(`https://swapi.co/api/films/${filmID}`)
+    console.log(query)
+    const {filmid} = query
+    const res = await fetch(`https://swapi.co/api/films/${filmid}`)
     const data = await res.json()
+    console.log(filmid)
+    console.log("data: ", data)
     return {
         data
     }
